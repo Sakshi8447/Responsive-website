@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    background-color: #fff;
+
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.container h2{
+    font-size:44px;
+    line-height: 24px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.lock{
+    padding: 8px 11px;
+}
+.name{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+
+}
+
+.input-name span{
+    margin-left: 35px;
+}
+.text-name{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+
+}
+.email{
+    padding: 8px;
+}
+.text-name, .name{
+     border: 1px solid #cccccc ;
+     transition: all 0.30s ease-in-out;
+}
+.text-name:hover, .name:hover{
+    background-color: #fafafa;
+}
+
+.text-name:focus, .name:focus{
+    border: 1px solid blue;
+}
+.radio-button{
+    margin-right: 4px;
+}
+.country{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    padding: 0px 15px;
+    cursor: pointer;
+    border-radius: 0;
+    background-color: white;
+    border: 1px solid #cccccc;
+}
+
+.btn{
+    
+    font-size: 22px;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    background-color: blue;
+    align-items: center;
+    text-align: center;
+
+
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+}
+.btn .link{
+    background-color: orangered;
+    font-size: 33px;
+}

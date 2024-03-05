@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
+        
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <input type="checkbox" id="check" name="" value="">
+            <label for="check" id="checkbtn"><i class="fa fa-bars"></i></label>
+            <label class="logo">HandiCraft</label>
+            <ul class="mainnav">
+                <li><a class="active" href="#" id="home" onclick="homes()">Home</a></li>
+                <li><a href="#" id="shop" onclick="shops()">Shop</a></li>
+                <li><a href="#" id="about" onclick="abouts()">About</a></li>
+                <li><a href="#" id="contact" onclick="contacts()">Contact</a></li>
+                    </ul>
+            
+        </nav>
+    
+        <!-- mainpage -->
+
+        <div class="main">
+            <div class="mainText">
+                <h2>HandiCraft</h2>
+                <h1 class="top">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                
+                <button>Explore</button>
+            </div>
+            <div class="god">
+            <img src="god image.png" alt="" class="godimg">
+        </div>
+        </div>
+
+        <!-- cards -->
+
+        <div class="trend">
+            <div class="head">
+                <h1>Home <span>Decor Item's</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="h.decor1.png" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Handcrafted Home Decor Item's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="crd">
+                    <img src="h.decor2.png" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Handcrafted Home Decor Item's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                 </div>
+                    <div class="crd">
+                        <img src="h.decor3.png" alt="" onclick="show(this)">
+                        <div class="crdText">
+                            <h2>Handcrafted Home Decor Item's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="crd">
+                        <img src="h.decor4.png" alt="" onclick="show(this)">
+                        <div class="crdText">
+                            <h2>Handcrafted Home Decor Item's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                        </div>
+                     </div>
+                    
+                </div>
+            </div>
+
+                <!-- wall decor item's -->
+
+                <div class="trend" id="trendSec">
+                    <div class="head">
+                        <h1>Wall <span>Decor Item's</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="crd">
+                            <img src="wall.decor1.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Handcrafted Wall Decor Item's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="wall.decor2.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Handcrafted Wall Decor Item's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="wall.decor3.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Handcrafted Wall Decor Item's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="crd">
+                            <img src="wall.decor4.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Handcrafted Wall Decor Item's</h2>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i> <br>
+                                <button>Add to Cart</button>
+                            </div>
+                         </div>
+                        
+                    </div>
+                </div>
+
+                <!--Lamp decor item's-->
+                 
+
+                <div class="trend" id="trendThir">
+                    <div class="head">
+                        <h1>Lamp <span>Decor Item's</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="crd">
+                            <img src="lamp.decor1.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Handcrafted Lamp Decor Item's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="lamp.decor2.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Handcrafted Lamp Decor Item's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="lamp.decor3.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Handcrafted lamp Decor Item's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="crd">
+                            <img src="lamp.decor4.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Handcrafted lamp Decor Item's</h2>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i> <br>
+                                <button>Add to Cart</button>
+                            </div>
+                         </div>
+                        
+                    </div>
+                </div>
+                <!--woman's assessories-->
+
+                <div class="trend" id="trendFor">
+                    <div class="head">
+                        <h1>Woman's <span>Assessories</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="crd">
+                            <img src="woman's acces1.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Handcrafted Woman's Assessories </h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="woman's acces2.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Handcrafted Woman's Assessories</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="woman's acces3.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Handcrafted Woman's Assessories</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="crd">
+                            <img src="woman's acces4.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Handcrafted Woman's Assessories</h2>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i> <br>
+                                <button>Add to Cart</button>
+                            </div>
+                         </div>
+                        
+                    </div>
+                </div>
+
+
+                <!-- about us -->
+
+                <div class="about">
+
+                    <div class="aboutus">
+                        <h1>#KnowUs</h1>
+                        
+                    </div>
+
+                    <div class="me">
+                        <div class="remake">
+                        <img src="slide image3.png">
+                        </div>
+                        <div class="aboutText" >
+                            <h1>
+                                Who we are ?
+                            </h1><br>
+                            <p>Handcrafted items offer a blend of quality, uniqueness, sustainability, and artistic expression that sets them apart from mass-produced goods and makes them highly valued by consumers who appreciate craftsmanship and individuality.</p>
+                            <br><p>Handcrafted women's accessories encompass a diverse range of products, each crafted with care and attention to detail. Each piece is unique, reflecting the creativity, skill, and artistry of the artisan who made it.</p>
+                        </div>
+                    </div>
+                
+                    <div class="me">
+                        <div class="remake" >
+                        <img src="slide image4.png" >
+                        </div>
+                        <div class="aboutText ">
+                           <br>
+                            <p>Handcrafted flowerpots are a beautiful and unique way to display plants and add a touch of handmade charm to your home or garden. </p>
+                            <br><p> Handcrafted wooden flowerpots are made from various types of wood, such as cedar, pine, or teak.</p>
+                            <br><p>Handcrafted fabric flowerpots are made from textiles like cotton, jute, or canvas.</p><br>
+                            <p> Handcrafted metal flowerpots are made from materials like iron, copper, or brass.</p><br>
+                            
+                        </div>
+                    </div>
+                
+                    
+                    <div class="me">
+                        <div class="remake" >
+                        
+                        <img src="slide image1.png">
+                        </div>
+                        <div class="aboutText">
+                            <br>
+                            <p>Rajasthani handcrafting is renowned for its rich cultural heritage, intricate designs, vibrant colors, and meticulous craftsmanship. Rajasthan, a state in northern India, has a long history of traditional arts and crafts that have been passed down through generations.</p>
+                            <br><p>Rajasthani handcrafting reflects the state's rich cultural heritage and artistic traditions, with artisans continuing to preserve and innovate upon these ancient crafts. </p>
+                        </div>
+                    </div>
+                    
+                    
+                
+                
+                
+                </div>
+                
+
+                <!-- contact -->
+
+                <div class="contact">
+
+                    <div class="contactus">
+                        <h1>#Let's Connect</h1>
+                
+                    </div>
+
+                    <div class="contactMe">
+                        <div class="contactText">
+                            <h1>Visit Our Office or Contact <br>
+                                Us Today</h1>
+                            <p>Address : New Delhi, Ashok Nagar</p>
+                            <p>Contact : Handicraft@gmail.com</p>
+                            <p>Number : 999999000011</p>
+                        </div>
+                        <div class="connectImg">
+                                <img src="slide image2.png" alt="">
+                    </div>
+                    </div>
+
+                    <div class="form">
+                        <h1>Connect with Us. Fill Form</h1>
+                        
+                        <input type="text" placeholder="Enter First Name"> <br>
+                        <input type="text" placeholder="Enter Last Name"> <br>
+                        <input type="text" placeholder="Enter Contact No."> <br>
+                        <input type="text" placeholder="Enter Email"> <br>
+                        
+                        <button onclick="submit()" >Submit</button>
+
+                    </div>
+                </div>
+                 <!-- cart -->
+
+                 <div class="cart">
+                    <img id="newImg" src="" alt="">
+                    <div class="cartText">
+                        <h1>Trends Offer : Trending Shop <br>
+                            Now</h1>
+                            <h2>Special Price</h2>
+                            <h2>Rs. 1,567</h2>
+                            <p>Modern Canvas Art Item's</p>
+                            <p>Customization and Personalization</p>
+                             <p>Unique and One-of-a-Kind</p><br>
+                                <ul>
+                                     <li>Easy 15 days return option available
+                                         </li>
+                                </ul>
+
+                            <div class="btn">
+                            <a href="form.html" ><button>BUY NOW</button></a>
+                           
+            
+        
+                            <button onclick="addCart()">Add to Cart</button>
+                           </div>
+                           <button  onclick="back()" class="back">Back</button>
+
+
+
+                    </div>
+                 </div>
+
+   
+                <!-- Footer -->
+             <section1>
+                <div class="footer">
+                    <div class="footerText">
+                        <h2>HandiCraft</h2>
+                        <p>Service </p>
+                        <p>Customer</p>
+                        <p>Satisfaction</p>
+                        <p></p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>About US</h2>
+                        <p>Adrress : New Delhi, Ashok Nagar</p>
+                        <p>Service</p>
+                        <p>Customer</p>
+                        <p>Satisfation</p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>Contect</h2>
+                        <p>9989003229</p>
+                        <p>Customer</p>
+                        <p>Comming up</p>
+                        <p>New Arrival</p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>Trending</h2>
+                        <p>Service</p>
+                        <p>Customer</p>
+                        <p>Shops</p>
+                        <p></p>
+
+                    </div>
+                </div>
+             </section1>
+           
+           
+            </div>
+
+            
+            
+            <script src="index.js"></script>
+</body>
+
+</html>
